@@ -5,14 +5,14 @@ An employee accidentally downloaded a suspicious file from a phishing email. The
 Using ilspycmd.  
 ![](./images/Question0_Decompile_1.png)
 
-## Question 1: What is the compile timestamp (UTC) of the sample?
+## Question 1: What is the compile timestamp (UTC) of the sample?  
 
 Investigate the PE-Headers using Detect it Easy.  
 ![](./images/Question1.png)
 
 ## Question 2: Which legitimate company does the malware impersonate in an attempt to appear trustworthy?  
 
-Defined in the AssemblyInfo.cs File  
+Defined in the AssemblyInfo.cs File.  
 ![](./images/Question2.png) 
 
 ## Question 3: How many anti-analysis checks does the malware perform to detect/evade sandboxes and debugging environments?  
@@ -56,11 +56,14 @@ Method input.
 ![](./images/Pasted_image_20260803202207.png)  
 
 
-Method dependency.
-![[Pasted image 20260804165257.png]]
-![[Pasted image 20260804165341.png]]
+Method dependency.  
+![](./images/Pasted_image_20260804165257.png)  
 
-Static and isolated execution by copying and modifying the method shows the decrypted name:
-![[Pasted image 20260804165150.png]]
+![](./images/Pasted_image_20260804165341.png)  
 
-![[Pasted image 20260804165205.png]]
+
+Static and isolated execution by copying and modifying the method shows the decrypted name:  
+![](./images/Pasted_image_20260804165150.png)  
+
+![](./images/Pasted_image_20260804165205.png)  
+
