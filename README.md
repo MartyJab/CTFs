@@ -1,1 +1,1 @@
-Writeups of CTF Challenges about IT-Forensic and Blue Teaming in general.
+Writeups of CTF Challenges about IT-Forensics and Blue Teaming in general.
