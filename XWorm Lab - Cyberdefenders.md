@@ -10,13 +10,12 @@ Using ilspycmd.
 Investigate the PE-Headers using Detect it Easy.  
 ![](./images/Question1.png)
 
-## Question 2: Which legitimate company does the malware impersonate in an attempt to appear trustworthy?
+## Question 2: Which legitimate company does the malware impersonate in an attempt to appear trustworthy?  
 
-Defined in the AssemblyInfo.cs File
-![[Question2.png]]
+Defined in the AssemblyInfo.cs File  
+![](./images/Question2.png) 
 
-
-Question 3: How many anti-analysis checks does the malware perform to detect/evade sandboxes and debugging environments? 
+## Question 3: How many anti-analysis checks does the malware perform to detect/evade sandboxes and debugging environments?  
 
 Anti-Analysis checks are probably in the entry point class.
 
