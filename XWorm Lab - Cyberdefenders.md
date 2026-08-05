@@ -19,11 +19,11 @@ Defined in the AssemblyInfo.cs File
 
 Anti-Analysis checks are probably in the entry point class.  
 
-Code seems to be obfuscated (no result).
+Code seems to be obfuscated (no result).  
 ![](./images/Pasted_image_20260723142148.png)  
 
-Looking for the enrypoint in IL.
-![[Pasted image 20260723142249.png]]
+Looking for the enrypoint in IL.  
+![](./images/Pasted_image_20260723142249.png)  
 
 You can see what that the function that includes the .entrypoint in IL is called here.
 ![[Pasted image 20260723143052.png]]
