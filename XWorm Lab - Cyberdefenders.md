@@ -17,10 +17,10 @@ Defined in the AssemblyInfo.cs File
 
 ## Question 3: How many anti-analysis checks does the malware perform to detect/evade sandboxes and debugging environments?  
 
-Anti-Analysis checks are probably in the entry point class.
+Anti-Analysis checks are probably in the entry point class.  
 
-Code seems to be obfuscated (no result)
-![[Pasted image 20260723142148.png]]
+Code seems to be obfuscated (no result).
+![](./images/Pasted_image_20260723142148.png)  
 
 Looking for the enrypoint in IL.
 ![[Pasted image 20260723142249.png]]
