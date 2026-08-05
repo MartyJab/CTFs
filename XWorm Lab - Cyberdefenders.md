@@ -25,8 +25,9 @@ Code seems to be obfuscated (no result).
 Looking for the enrypoint in IL.  
 ![](./images/Pasted_image_20260723142249.png)  
 
-You can see what that the function that includes the .entrypoint in IL is called here.
-![[Pasted image 20260723143052.png]]
+You can see what that the function that includes the .entrypoint in IL is called here.  
+![](./images/Pasted_image_20260723143052.png)  
+
 
 Search for the function name in the c# code using grep.
 ![[Pasted image 20260723143314.png]]
