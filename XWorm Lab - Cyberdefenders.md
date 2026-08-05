@@ -2,7 +2,7 @@ Scenario:
 An employee accidentally downloaded a suspicious file from a phishing email. The file executed silently, triggering unusual system behavior. As a malware analyst, your task is to analyze the sample to uncover its behavior, persistence mechanisms, communication with Command and Control (C2) servers, and potential data exfiltration or system compromise.
 
 Decompile the file:
-![](.images/Question0_Decompile 1.png)
+![](.images/Question0_Decompile_1.png)
 
 Question 1: What is the compile timestamp (UTC) of the sample?
 
