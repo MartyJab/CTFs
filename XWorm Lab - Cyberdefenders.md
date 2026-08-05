@@ -7,11 +7,10 @@ Using ilspycmd.
 
 ## Question 1: What is the compile timestamp (UTC) of the sample?
 
-Investigate the PE-Headers using Detect it Easy
-![[Question1.png]]
+Investigate the PE-Headers using Detect it Easy.  
+![](./images/Question1.png)
 
-
-Question 2: Which legitimate company does the malware impersonate in an attempt to appear trustworthy?
+## Question 2: Which legitimate company does the malware impersonate in an attempt to appear trustworthy?
 
 Defined in the AssemblyInfo.cs File
 ![[Question2.png]]
