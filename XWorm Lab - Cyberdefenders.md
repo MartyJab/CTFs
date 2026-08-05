@@ -29,30 +29,32 @@ You can see what that the function that includes the .entrypoint in IL is called
 ![](./images/Pasted_image_20260723143052.png)  
 
 
-Search for the function name in the c# code using grep.
-![[Pasted image 20260723143314.png]]
-
-Count the functions with a bool return type because that is likely to be an Anti-Analysis check.
-![[Pasted image 20260723143450.png]]
+Search for the function name in the c# code using grep.  
+![](./images/Pasted_image_20260723143314.png)  
 
 
-Question 4: What is the name of the scheduled task created by the malware to achieve execution with elevated privileges?
+Count the functions with a bool return type because that is likely to be an Anti-Analysis check.  
+![](./images/Pasted_image_20260723143450.png)  
 
-schtasks.exe for creating a task (line 83).
-![[Pasted image 20260803202445.png]]
+## Question 4: What is the name of the scheduled task created by the malware to achieve execution with elevated privileges?  
 
-After tn comes name of the new task.
-![[Pasted image 20260803202614.png]]
+schtasks.exe for creating a task (line 83).  
+![](./images/Pasted_image_20260803202445.png)  
 
-Definition of the method.
-![[Pasted image 20260803202804.png]]
+After tn comes name of the new task.  
+![](./images/Pasted_image_20260803202614.png)  
 
-![[Pasted image 20260803203530.png]]
+Definition of the method.  
+![](./images/Pasted_image_20260803202804.png)   
 
-![[Pasted image 20260803203725.png]]
+![](./images/Pasted_image_20260803203530.png)  
 
-Method input.
-![[Pasted image 20260803202207.png]]
+![](./images/Pasted_image_20260803203725.png)  
+
+
+Method input.  
+![](./images/Pasted_image_20260803202207.png)  
+
 
 Method dependency.
 ![[Pasted image 20260804165257.png]]
