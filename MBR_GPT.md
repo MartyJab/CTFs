@@ -13,7 +13,7 @@ The last 4 Bytes contain the number of sectors.
 ![](./images/Pasted_image_20260805141757.png)
 
 00 38 EB 01 is little endian and 01 EB 38 00 in big endian which is 3219512 in decimal.
-![](./images/Pasted_image_20260805142054.png)
+![](./images/Pasted_image_20260805142054.png)  
 Sector size is 512 Byte so 32192512 * 512 Byte = 16482566144 Byte ≈ 16 GB
 
 ## 2nd MBR:  
