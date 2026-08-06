@@ -1,11 +1,9 @@
 # Writeups of CTF Challenges about IT-Forensics and Blue Teaming in general.
 
 ## Tools used:
-
 ### Malware Analysis:
-ilspycmd
+ilspycmd  
 Detect It Easy
-
 ### Storage Analysis:
-HxD Hexeditor
+HxD Hexeditor  
 FTK Imager
