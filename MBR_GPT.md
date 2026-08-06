@@ -10,7 +10,7 @@ The partition table starts at the byte 446. Each partition table entry is 16 Byt
 ![]Pasted_image_20260805141550.png)
 
 The last 4 Bytes contain the number of sectors.
-![[Pasted image 20260805141757.png]]
+![[./images/Pasted image 20260805141757.png]]
 
 00 38 EB 01 is little endian and 01 EB 38 00 in big endian which is 3219512 in decimal.
 ![[Pasted image 20260805142054.png]]
