@@ -7,7 +7,7 @@ https://tryhackme.com/room/mbrandgptanalysis?utm_campaign=social_share&utm_mediu
 ### What is the size of the second partition in the MBR file found in `C:\Analysis\MBR\`? (rounded to the nearest GB)
 
 The partition table starts at the byte 446. Each partition table entry is 16 Bytes long. So the second partition entry start at byte 462.
-![]Pasted_image_20260805141550.png)
+![](./images/Pasted_image_20260805141550.png)
 
 The last 4 Bytes contain the number of sectors.
 ![[./images/Pasted image 20260805141757.png]]
