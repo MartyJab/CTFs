@@ -20,7 +20,7 @@ Sector size is 512 Byte so 32192512 * 512 Byte = 16482566144 Byte ≈ 16 GB
 
 ### How many partitions are on the disk?
 
-After the first partition entry every Byte is 0. So there is only one partition.
+After the first partition entry every Byte is 0. So there is only one partition.  
 ![](./images/Pasted_image_20260805154003.png)
 ![](./images/Pasted_image_20260805153941.png)
 
@@ -35,16 +35,19 @@ The first Byte is EB.
 
 ### What is the type of the partition?
 It shows at the start of the partition.
-![[Pasted image 20260805155525.png]]
+![](./images/Pasted_image_20260805155525.png)
 
 ### What is the size of the partition? (rounded to the nearest GB)
 
 FTK Imager shows the size in MebiBytes. 
-![[Pasted image 20260805161849.png]]
+![](./images/Pasted_image_20260805161849.png)
+
 30 718 MiB * 1024 * 1024  = 32 210 157 568 Byte ≈ 32GB
+
 ### What is the flag hidden in the Administrator's Documents folder?
 
-![[Pasted image 20260805162717.png]]
+![](./images/Pasted_image_20260805162717.png)
+
 
 ## GPT (GUID Partition Table)
 
@@ -57,8 +60,10 @@ The partition array is in the 3rd sector of the disk. A sector is 512 bytes long
 We multiply 512 by 2 because the first sector starts at byte 0 and not 512.
 We add 128 for the second partition entry.
 512 * 2 + 128 = 1152
-![[Pasted image 20260805170540.png]]
-![[Pasted image 20260805170556.png]]
+![](./images/Pasted_image_20260805170540.png)
+
+![](./images/Pasted_image_20260805170556.png)
+
 We need to convert it to big endian which comes to: 
 E3C9E316-0B5C-4DB8-817D-F92DF00215AE
 
@@ -67,8 +72,9 @@ E3C9E316-0B5C-4DB8-817D-F92DF00215AE
 ### What is the malicious string embedded in the bootloader?
 
 Using a hint.
-![[Pasted image 20260805172856.png]]
+![](./images/Pasted_image_20260805172856.png)
+
 
 Finding random bytes which look like base64 format.
-![[Pasted image 20260805172928.png]]
-![[Pasted image 20260805173421.png]]
+![](./images/Pasted_image_20260805172928.png)
+![](./images/Pasted_image_20260805173421.png)
