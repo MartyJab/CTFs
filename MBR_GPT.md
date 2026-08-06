@@ -34,17 +34,17 @@ The logical address of the first partition is 00 08 00 00 (shown in the challeng
 The first Byte is EB.
 
 ### What is the type of the partition?
-It shows at the start of the partition.
+It shows at the start of the partition.  
 ![](./images/Pasted_image_20260805155525.png)
 
 ### What is the size of the partition? (rounded to the nearest GB)
 
-FTK Imager shows the size in MebiBytes. 
+FTK Imager shows the size in MebiBytes.  
 ![](./images/Pasted_image_20260805161849.png)
 
 30 718 MiB * 1024 * 1024  = 32 210 157 568 Byte ≈ 32GB
 
-### What is the flag hidden in the Administrator's Documents folder?
+### What is the flag hidden in the Administrator's Documents folder?  
 
 ![](./images/Pasted_image_20260805162717.png)
 
@@ -59,7 +59,7 @@ The partition array is in the 3rd sector of the disk. A sector is 512 bytes long
 
 We multiply 512 by 2 because the first sector starts at byte 0 and not 512.
 We add 128 for the second partition entry.
-512 * 2 + 128 = 1152
+512 * 2 + 128 = 1152  
 ![](./images/Pasted_image_20260805170540.png)
 
 ![](./images/Pasted_image_20260805170556.png)
@@ -71,10 +71,10 @@ E3C9E316-0B5C-4DB8-817D-F92DF00215AE
 
 ### What is the malicious string embedded in the bootloader?
 
-Using a hint.
+Using a hint.  
 ![](./images/Pasted_image_20260805172856.png)
 
 
-Finding random bytes which look like base64 format.
+Finding random bytes which look like base64 format.  
 ![](./images/Pasted_image_20260805172928.png)
 ![](./images/Pasted_image_20260805173421.png)
