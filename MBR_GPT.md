@@ -16,7 +16,7 @@ The last 4 Bytes contain the number of sectors.
 ![](./images/Pasted_image_20260805142054.png)
 Sector size is 512 Byte so 32192512 * 512 Byte = 16482566144 Byte ≈ 16 GB
 
-## 2nd MBR:
+## 2nd MBR:  
 
 ### How many partitions are on the disk?
 
