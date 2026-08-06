@@ -13,7 +13,7 @@ The last 4 Bytes contain the number of sectors.
 ![](./images/Pasted_image_20260805141757.png)
 
 00 38 EB 01 is little endian and 01 EB 38 00 in big endian which is 3219512 in decimal.
-![[Pasted image 20260805142054.png]]
+![](./images/Pasted_image_20260805142054.png)
 Sector size is 512 Byte so 32192512 * 512 Byte = 16482566144 Byte ≈ 16 GB
 
 ## 2nd MBR:
@@ -21,14 +21,16 @@ Sector size is 512 Byte so 32192512 * 512 Byte = 16482566144 Byte ≈ 16 GB
 ### How many partitions are on the disk?
 
 After the first partition entry every Byte is 0. So there is only one partition.
-![[Pasted image 20260805154003.png]]
-![[Pasted image 20260805153941.png]]
+![](./images/Pasted_image_20260805154003.png)
+![](./images/Pasted_image_20260805153941.png)
+
 
 ### What is the first byte at the starting LBA of the partition? (represented by two hexadecimal digits)
 
-The logical address of the first partition is 00 08 00 00 (shown in the challenge). 00 08 00 00 in big endian equals 2048 in decimal. So the first partition starts at the offset 2048 * 512 = 1048576.
-![[Pasted image 20260805155328.png]]
-![[Pasted image 20260805155342.png]]
+The logical address of the first partition is 00 08 00 00 (shown in the challenge). 00 08 00 00 in big endian equals 2048 in decimal. So the first partition starts at the offset 2048 * 512 = 1048576.  
+![](./images/Pasted_image_20260805155328.png)
+![](./images/Pasted_image_20260805155342.png)
+
 The first Byte is EB.
 
 ### What is the type of the partition?
