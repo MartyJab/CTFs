@@ -8,7 +8,8 @@
 ### We have a hypothetical file B and its cluster chain starts at cluster F and ends at cluster 10 . What would be the value of the FAT entry at cluster F?
 
 Bytes per sector are saved in the bootsector. 00 02 in big endian equals 512
-![[Pasted_image_20260806132249.png]]
+![](./images/Pasted_image_20260806132249.png)
+
 
 One Sector per Cluster
 ![[Pasted_image_20260806132249.png]]
