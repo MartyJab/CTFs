@@ -7,3 +7,4 @@ Detect It Easy
 ### Storage Analysis:
 HxD Hexeditor  
 FTK Imager
+Autopsy
