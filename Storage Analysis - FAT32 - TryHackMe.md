@@ -1,6 +1,8 @@
 
 # File System FAT32
 
+https://tryhackme.com/room/fat32analysis?utm_campaign=social_share&utm_medium=social&utm_content=share-completed-room&utm_source=copy&sharerId=67a5a61f353210ecc7a1169d
+
 >A filesystem is the structure that an OS uses to organize, store and retrieve files and directories. It also includes the metadata of the files. FAT32 is not state of the art anymore because of the maximum filesize of 4GB.
 
 ## FAT32 Structure: Reserved and FAT Areas
