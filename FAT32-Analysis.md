@@ -12,18 +12,22 @@ Bytes per sector are saved in the bootsector. 00 02 in big endian equals 512
 
 
 One Sector per Cluster
-![[Pasted_image_20260806132249.png]]
+![](./images/Pasted_image_20260806132249.png)
+
 
 Reserved Sectors equals 6270 in decimal (big endian)
-![[Pasted_image_20260806122843.png]]
+![](./images/Pasted_image_20260806122843.png)
+
 
 Number of FATs is 2
-![[Pasted_image_20260806123547.png]]
+![](./images/Pasted_image_20260806123547.png)
+
 
 FAT starts at 6270 * 512 (Reserved Sectors * Bytes per Sector) = 3.210.240 = 0x30FC00
 
 Start of the FAT
-![[Pasted_image_20260806124026.png]]
+![](./images/Pasted_image_20260806124026.png)
+
 
 Adding the Cluster F Offset 0x30FC00 + 0xF *4 (Cluster F * 4 bytes) = 0x30FC3C 
 
@@ -33,10 +37,12 @@ Cluster F stores the value of the next cluster which is 10. Each cluster is 4 by
 ### At which offset does the FAT2 table start?
 
 Sectors per FAT
-![[Pasted_image_20260806131900.png]]
+![](./images/Pasted_image_20260806131900.png)
+
 
 Start of FAT2 = Reserved Sectors + Sectors per FAT (for the first FAT) = 7231 Sectors --> Offset 3702272 = 0x387E00
-![[Pasted_image_20260806132249.png]]
+![](./images/Pasted_image_20260806132249.png)
+
 
 ## FAT32 Structure: Data Area
 
@@ -53,13 +59,15 @@ FAT2 starts at (6270 + 961) * 512 = 0x387E00
 Data Area/Root Directory starts at (6270 + 961 + 961) * 512 = 0x400000
 
 Every Directory Entry shows the first cluster number in the 5th and 6th last byte.
-![[FAT32-Analysis-1.png]]
+![](./images/FAT32-Analysis-1.png)
+
 So the name of the filename is careers.txt
 
 ### What is the creation time of the file that starts at cluster 9?
 
 These bytes show the creation time
-![[FAT32-Analysis-2.png]]
+![](./images/FAT32-Analysis-2.png)
+
 In big endian it is 84F4 --> 4:39:40 PM
 
 ## Hidden Files and Directories
@@ -67,33 +75,34 @@ In big endian it is 84F4 --> 4:39:40 PM
 ### What is the short file name of the hidden file in the M@lL0v3 directory?
 
 BEMYVA~1
-![[FAT32-Analysis-3.png]]
+![](./images/FAT32-Analysis-3.png)
 
 ### What is the flag found during automated analysis?
 
 THM{F0uNdTh3H!Dd3nF1l3}
-![[FAT32-Analysis-4.png]]
+![](./images/FAT32-Analysis-4.png)
 
 ## Timestomp
 
 ### What is the Accessed timestamp of the discovered suspicious file?
 
 Using the Timeline feature of Autopsy
-![[FAT32-Analysis-5.png]]
+![](./images/FAT32-Analysis-5.png)
 2018-01-10 00:00:00
 
 ### What is the flag found during the automated analysis?
 
 Text found in the of the file
-![[FAT32-Analysis-6.png]]THM{T1m3St0Mp3D}
+![](./images/FAT32-Analysis-6.png)
+THM{T1m3St0Mp3D}
 
 ## File Deletion and Clear Persistence
 What is the output of the deleted PowerShell script after executing it?
 
 The deleted File
-![[FAT32-Analysis-8.png]]
+![](./images/FAT32-Analysis-8.png)
 
 Script output is THM{r3Tr!3v3D_3v!d3nC3}
-![[FAT32-Analysis-7.png]]
+![](./images/FAT32-Analysis-7.png)
 
 
