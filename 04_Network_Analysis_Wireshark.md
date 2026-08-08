@@ -10,23 +10,20 @@ A company's internal server has been flagged for unusual network activity, with 
 Filtering for ftp packets
 ![](./images/Pasted_image_20260808160552.png)
 
-
 ## What is the IPv6 address of the DNS server used by 192.168.1.26?
 
 Filering for dns and looking for a dns response source ipv6 address
 ![](./images/Network_Analysis.png)
 
-
 ## What domain is the user looking up in packet 15174?
 
-Filtering for the packet 15174 and looking into the dns query
+Filtering for the packet 15174 and looking into the DNS query
 ![](./images/Network_Analysis-1.png)
 
 ## How many UDP packets were sent from 192.168.1.26 to 24.39.217.246?
 
-Counting the packets surviving the filter Protocol = UDP, Source IP = 192.168.1.26 and Destination IP = 24.39.217.246. It's 10 pakcets.
+Counting the packets surviving the filter Protocol = UDP, Source IP = 192.168.1.26 and Destination IP = 24.39.217.246. It's 10 pakcets
 ![](./images/Pasted_image_20260808161832.png)
-
 
 ## What is the MAC address of the system under investigation in the PCAP file?
 
@@ -42,7 +39,7 @@ Exporting the file using Wireshark Export Objects FTP-Data function
 Opening the image metadata
 ![](./images/Network_Analysis-5.png)
 
-## What is the ephemeral public key provided by the server during the TLS handshake in the session with the session ID: da4a0000342e4b73459d7360b4bea971cc303ac18d29b99067e46d16cc07f4ff ?
+## What is the ephemeral public key provided by the server during the TLS handshake in the session with the session ID: da4a0000342e4b73459d7360b4bea971cc303ac18d29b99067e46d16cc07f4ff?
 
 Filter for TLS handshake session ID
 ![](./images/Pasted_image_20260808170405.png)
@@ -68,7 +65,7 @@ Finding the country the manufacturer is registered in with MAC Address Lookup
 Finding a LIST command in the ftp requests
 ![](./images/Network_Analysis-11.png)
 
-Going to the response frame 530
+Going to the response frame 530  
 ![](./images/Network_Analysis-12.png)
 
 The data shows the creation time for a non-standard folder created on the 20th of April
