@@ -78,5 +78,5 @@ The data shows the creation time for a non-standard folder created on the 20th o
 
 Filtering for a DNS Response with the IP 104.21.89.171
 ![](./images/Network_Analysis-13.png)
-The Query is already visible in the packet info box
+The Query is already visible in the packet info box  
 ![](./images/Pasted_image_20260808185921.png)
