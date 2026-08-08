@@ -8,3 +8,5 @@ Detect It Easy
 HxD Hexeditor  
 FTK Imager  
 Autopsy
+### Network Analysis
+Wireshark
