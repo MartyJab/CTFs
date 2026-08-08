@@ -1,13 +1,15 @@
 # Wireshark Network Traffic Analysis
 
 https://cyberdefenders.org/blueteam-ctf-challenges/packetmaze/
+
 ## Scenario
 A company's internal server has been flagged for unusual network activity, with multiple outbound connections to an unknown external IP. Initial analysis suggests possible data exfiltration. Investigate the provided network logs to determine the source and method of compromise.
 
 ## What is the FTP password?
 
 Filtering for ftp packets
-![[Pasted_image_20260808160552.png]]
+![](./images/Pasted_image_20260808160552.png)
+
 
 ## What is the IPv6 address of the DNS server used by 192.168.1.26?
 
@@ -23,7 +25,8 @@ Filtering for the packet 15174 and looking into the dns query
 ## How many UDP packets were sent from 192.168.1.26 to 24.39.217.246?
 
 Counting the packets surviving the filter Protocol = UDP, Source IP = 192.168.1.26 and Destination IP = 24.39.217.246. It's 10 pakcets.
-![[Pasted_image_20260808161832.png]]
+![](./images/Pasted_image_20260808161832.png)
+
 
 ## What is the MAC address of the system under investigation in the PCAP file?
 
@@ -42,9 +45,10 @@ Opening the image metadata
 ## What is the ephemeral public key provided by the server during the TLS handshake in the session with the session ID: da4a0000342e4b73459d7360b4bea971cc303ac18d29b99067e46d16cc07f4ff ?
 
 Filter for TLS handshake session ID
-![[Pasted_image_20260808170405.png]]
+![](./images/Pasted_image_20260808170405.png)
+
 The public key is in the server certificate
-![[Pasted_image_20260808170537.png]]
+![](./images/Pasted_image_20260808170537.png)
 
 ## What is the first `TLS 1.3` client random that was used to establish a connection with protonmail.com?
 
@@ -75,4 +79,4 @@ The data shows the creation time for a non-standard folder created on the 20th o
 Filtering for a DNS Response with the IP 104.21.89.171
 ![](./images/Network_Analysis-13.png)
 The Query is already visible in the packet info box
-![[Pasted_image_20260808185921.png]]
+![](./images/Pasted_image_20260808185921.png)
