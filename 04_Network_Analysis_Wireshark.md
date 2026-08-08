@@ -12,7 +12,8 @@ Filtering for ftp packets
 ## What is the IPv6 address of the DNS server used by 192.168.1.26?
 
 Filering for dns and looking for a dns response source ipv6 address
-![[Network_Analysis.png]]
+![](./images/Network_Analysis.png)
+
 
 ## What domain is the user looking up in packet 15174?
 
