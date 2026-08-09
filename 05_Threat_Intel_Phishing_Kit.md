@@ -1,5 +1,7 @@
 # Phishing Kit Analysis
 
+https://cyberdefenders.org/blueteam-ctf-challenges/grabthephisher/
+
 ## Scenario
 A decentralized finance (DeFi) platform recently reported multiple user complaints about unauthorized fund withdrawals. A forensic review uncovered a phishing site impersonating the legitimate PancakeSwap exchange, luring victims into entering their wallet seed phrases. The phishing kit was hosted on a compromised server and exfiltrated credentials via a Telegram bot.
 
@@ -22,7 +24,7 @@ PHP
 
 ## What service does the kit use to retrieve the victim's machine information?
 
-Sypex Geo
+Sypex Geo  
 ![](./images/Threat_Intel_GrabThePhisher-3.png)
 
 ## How many seed phrases were already collected?
@@ -37,8 +39,9 @@ Answer above: father ...
 
 ## Which medium was used for credential dumping?
 
-Visible in the metamask.php file
-![[Pasted image 20260809202433.png]]
+Visible in the metamask.php file  
+![](./images/Pasted_image_20260809202433.png)
+
 
 ## What is the token for accessing the channel?
 
