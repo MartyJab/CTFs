@@ -10,3 +10,5 @@ FTK Imager
 Autopsy
 ### Network Analysis
 Wireshark
+### Threat Intel
+VS Code
