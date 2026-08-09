@@ -8,7 +8,9 @@ Your task is to conduct threat intelligence analysis on the phishing infrastruct
 ## Which wallet is used for asking the seed phrase?
 
 The kit includes a folder named metamas with an exfiltration php file and a phishing index.html
-![[Threat_Intel_GrabThePhisher.png]]![[Threat_Intel_GrabThePhisher-2.png]]
+![](./images/Threat_Intel_GrabThePhisher.png)
+![](./images/Threat_Intel_GrabThePhisher-2.png)
+
 
 ## What is the file name that has the code for the phishing kit?
 
@@ -21,12 +23,12 @@ PHP
 ## What service does the kit use to retrieve the victim's machine information?
 
 Sypex Geo
-![[Threat_Intel_GrabThePhisher-3.png]]
+![](./images/Threat_Intel_GrabThePhisher-3.png)
 
 ## How many seed phrases were already collected?
 
 3 entries in the log file
-![[Threat_Intel_GrabThePhisher-4.png]]
+![](./images/Threat_Intel_GrabThePhisher-4.png)
 
 ## Could you please provide the seed phrase associated with the most recent phishing incident?
 
@@ -48,4 +50,4 @@ $id = "5442785564";
 
 ## What are the allies of the phish kit developer?
 
-![[Threat_Intel_GrabThePhisher-5.png]]
+![](./images/Threat_Intel_GrabThePhisher-5.png)
