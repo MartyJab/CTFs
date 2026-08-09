@@ -9,7 +9,7 @@ Your task is to conduct threat intelligence analysis on the phishing infrastruct
 
 ## Which wallet is used for asking the seed phrase?
 
-The kit includes a folder named metamas with an exfiltration php file and a phishing index.html
+The kit includes a folder named metamask with an exfiltration php file and a phishing index.html
 ![](./images/Threat_Intel_GrabThePhisher.png)
 ![](./images/Threat_Intel_GrabThePhisher-2.png)
 
