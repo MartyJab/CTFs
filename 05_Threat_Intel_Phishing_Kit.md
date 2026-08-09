@@ -35,11 +35,10 @@ Sypex Geo
 ## Could you please provide the seed phrase associated with the most recent phishing incident?
 
 Answer above: father ...
-## Which medium was used for credential dumping?
 
 ## Which medium was used for credential dumping?
 
-Visible in the metamask.php file  
+Visible in the metamask.php file (Telegram)
 ![](./images/Pasted_image_20260809202433.png)
 
 
