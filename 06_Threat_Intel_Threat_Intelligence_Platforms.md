@@ -6,38 +6,38 @@ Your task is to investigate this executable by analyzing its hash. The goal is t
 ## What category has Microsoft identified for that malware in VirusTotal?
 
 Trojan
-![[Malware-Intel-1786447888311.webp]]
+![](./images/Malware-Intel-1786447888311.webp)
 
 ## What is the file name associated with this malware?
 WEXTRACT
 
 ## What is the UTC timestamp of the malware's first submission to VirusTotal?
-![[Malware-Intel-1786448853459.webp]]
+![](./images/Malware-Intel-1786448853459.webp)
 
 ## What is the UTC timestamp of the malware's first submission to VirusTotal?
-![[Malware-Intel-1786449306670.webp]]
+![](./images/Malware-Intel-1786449306670.webp)
 
 
 ## Following execution, which social media-related domain names did the malware resolve via DNS queries?
-![[Malware-Intel-1786449415044.webp]]
+![](./images/Malware-Intel-1786449415044.webp)
 
 ## Can you provide the IP address and destination port the malware communicates with?
-![[Malware-Intel-1786449612206.webp]]
+![](./images/Malware-Intel-1786449612206.webp)
 
 ## Using MalwareBazaar, what's the name of the YARA rule created by "Varp0s" that detects the identified malware?
 Filter for the Malwarefootprint
-![[Malware-Intel-1786450061158.webp]]
-![[Malware-Intel-1786450086192.webp]]
+![](./images/Malware-Intel-1786450061158.webp)
+![](./images/Malware-Intel-1786450086192.webp)
 
 Listed Yara rules
-![[Malware-Intel-1786450014621.webp]]
+![](./images/Malware-Intel-1786450014621.webp)
 
 ## Can you provide the different malware alias associated with the malicious IP address according to **ThreatFox**?
 Filter by the IP
-![[Malware-Intel-1786453290043.webp]]
-![[Malware-Intel-1786453354159.webp]]
+![](./images/Malware-Intel-1786453290043.webp)
+![](./images/Malware-Intel-1786453354159.webp)
 
 ## Can you provide the DLL utilized by the malware for privilege escalation?
 VirusTotal shows the imported DLLs. ADVAPI32.dll has something to do with privileges
-![[Malware-Intel-1786453879926.webp]]
+![](./images/Malware-Intel-1786453879926.webp)
 
