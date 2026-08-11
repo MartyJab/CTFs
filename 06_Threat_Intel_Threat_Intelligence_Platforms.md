@@ -1,4 +1,5 @@
 # Threat Intelligence Platforms
+https://cyberdefenders.org/blueteam-ctf-challenges/red-stealer/
 ## Scenario
 You are part of the Threat Intelligence team in the SOC (Security Operations Center). An executable file has been discovered on a colleague's computer, and it's suspected to be linked to a Command and Control (C2) server, indicating a potential malware infection.  
 Your task is to investigate this executable by analyzing its hash. The goal is to gather and analyze data beneficial to other SOC members, including the Incident Response team, to respond to this suspicious behavior efficiently.
@@ -29,10 +30,10 @@ Filter for the Malwarefootprint
 ![](./images/Malware-Intel-1786450061158.webp)
 ![](./images/Malware-Intel-1786450086192.webp)
 
-Listed Yara rules
+Listed Yara rules  
 ![](./images/Malware-Intel-1786450014621.webp)
 
-## Can you provide the different malware alias associated with the malicious IP address according to **ThreatFox**?
+## Can you provide the different malware alias associated with the malicious IP address according to ThreatFox?
 Filter by the IP  
 ![](./images/Malware-Intel-1786453290043.webp)
 ![](./images/Malware-Intel-1786453354159.webp)
