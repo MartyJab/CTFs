@@ -11,6 +11,6 @@ Autopsy
 ### Network Analysis
 Wireshark
 ### Threat Intel
-Virus Total
-MalwareBazaar
+Virus Total  
+MalwareBazaar  
 ThreatFox
