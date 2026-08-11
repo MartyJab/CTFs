@@ -5,7 +5,7 @@ Your task is to investigate this executable by analyzing its hash. The goal is t
 
 ## What category has Microsoft identified for that malware in VirusTotal?
 
-Trojan
+Trojan  
 ![](./images/Malware-Intel-1786447888311.webp)
 
 ## What is the file name associated with this malware?
@@ -33,7 +33,7 @@ Listed Yara rules
 ![](./images/Malware-Intel-1786450014621.webp)
 
 ## Can you provide the different malware alias associated with the malicious IP address according to **ThreatFox**?
-Filter by the IP
+Filter by the IP  
 ![](./images/Malware-Intel-1786453290043.webp)
 ![](./images/Malware-Intel-1786453354159.webp)
 
