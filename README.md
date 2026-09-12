@@ -13,5 +13,5 @@ Wireshark
 ### Threat Intel
 Virus Total  
 MalwareBazaar  
-ThreatFox
+ThreatFox  
 QRadar
