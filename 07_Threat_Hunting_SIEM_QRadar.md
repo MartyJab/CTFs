@@ -1,5 +1,5 @@
 # SIEM QRadar  
-I used hints sometimes and when I really was stuck, I used the walkthrough solutions.
+Sometimes I had to use hints or when I was completely stuck, I had to use the walkthrough solutions.
 ## Scenario
 A financial company was compromised, and they are looking for a security analyst to help them investigate the incident. The company suspects that an insider helped the attacker get into the network, but they have no evidence.
 The initial analysis performed by the company's team showed that many systems were compromised. Also, alerts indicate the use of well known malicious tools in the network. As a SOC analyst, you are assigned to investigate the incident using QRadar SIEM and reconstruct the events carried out by the attacker.
