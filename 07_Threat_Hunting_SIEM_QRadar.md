@@ -28,10 +28,10 @@ Suricata is a IDS for network monitoring
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1786725521817.webp)
 
 ## What is the domain name used in the network?
-Filtering by a local Source IP Address
+Filtering by a local Source IP Address   
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1786729648480.webp)
 
-Filtering by an successful logon as an event name
+Filtering by an successful logon as an event name  
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1786730398097.webp)
 
 Inspecting the payload information of one. DC stands for Domain Controller
@@ -54,7 +54,7 @@ The most shown destination IP from the alters seems to be the attacker
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1787060444077.webp)
 
 ## The attacker was searching for data belonging to one of the company's projects, can you find the name of the project?
-Filtering the logs for the regualr expression "project"
+Filtering the logs for the regualr expression "project"  
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1787062370927.webp)
 
 In one log you can find the name of the project
@@ -67,7 +67,7 @@ Its the IP of the PC which was searching for the project data
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1787062823646.webp)
 
 ## What is the username of the infected employee using 192.168.10.15?
-Filter by the IP address
+Filter by the IP address  
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1787142551198.webp)
 
 Look for a login/logoff related event
@@ -77,13 +77,13 @@ Inspect the payload information
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1787142614511.webp)
 
 ## Hackers do not like logging, what logging was the attacker checking to see if enabled?
-Filter by username
+Filter by username  
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1787144430436.webp)
 
-Logging invocation Event
+Logging invocation Event  
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1787144493610.webp)
 
-Event Description shows checked logging
+Event Description shows checked logging 
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1787144672387.webp)
 
 ## Name of the second system the attacker targeted to cover up the employee?
@@ -106,7 +106,7 @@ This connection seems suspicious because notepad.exe initiated the connection
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1788945795451.webp)
 
 ## What is the md5 hash of the malicious file?
-Filter for MD5 Expression in the Log
+Filter for MD5 Expression in the Log  
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1788947068289.webp)
 
 A hash created by the infected machine seems to be the hash of a malicious file
@@ -121,7 +121,7 @@ I was stuck at this question so I used the walkthrough as help:
 Filtering by a infecterd systems IP and grouping by Event Name to find possible persistence related event names
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1788949207990.webp)
 
-Regestry Key manipulation can be used for persistence initiation
+Regestry Key manipulation can be used for persistence initiation  
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1788949272458.webp)
 
 One Payload shows that a script was added to the Run Registry Key which is for auto start.
@@ -136,7 +136,7 @@ ICMP is typically used for network scanning, so I filtered by ICMP Protocol
 The infected system 192.168.10.15 used icmp packets 37 times
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1788952026042.webp)
 
-It used it on several local systems
+It used it on several local systems  
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1788952079935.webp)
 
 ICMP Type 8 stands for Echo Request
@@ -176,15 +176,15 @@ Searching through all executed commands to find one that is used for exfiltratio
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1789123380147.webp)
 
 ## Who is the other legitimate domain admin other than the administrator?
-Filtering by "special" for the event "Success Audit: Successful logon with administrative or special privileges" which is common for admin behaviour and grouping by username
+Filtering by "special" for the event "Success Audit: Successful logon with administrative or special privileges" which is common for admin behaviour and grouping by username  
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1789123795774.webp)
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1789123835509.webp)
 Rambo was added by the attacker
 ## The attacker used the host discovery technique to know how many hosts available in a certain network, what is the network the hacker scanned from the host IP 1 to 30?
-Filtering for icmp protocol and the infected system 192.168.10.15
+Filtering for icmp protocol and the infected system 192.168.10.15  
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1789128708501.webp)
 
-The destination IPs are in the subnet 192.168.20.0/24
+The destination IPs are in the subnet 192.168.20.0/24  
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1789128751152.webp)
 
 ## What is the name of the employee who hired the attacker?
