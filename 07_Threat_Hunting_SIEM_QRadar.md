@@ -83,7 +83,7 @@ Filter by username
 Logging invocation Event  
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1787144493610.webp)
 
-Event Description shows checked logging 
+Event Description shows checked logging  
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1787144672387.webp)
 
 ## Name of the second system the attacker targeted to cover up the employee?
@@ -130,7 +130,7 @@ One Payload shows that a script was added to the Run Registry Key which is for a
 The MITRE ID for that is T1547.001
 
 ## What protocol is used to perform host discovery?
-ICMP is typically used for network scanning, so I filtered by ICMP Protocol
+ICMP is typically used for network scanning, so I filtered by ICMP Protocol  
 ![](./images/07_Threat_Hunting_SIEM_QRadar-1788952037027.webp)
 
 The infected system 192.168.10.15 used icmp packets 37 times
