@@ -23,7 +23,8 @@ https://blueteamlabs.online/home/challenge/memory-analysis-ransomware
 
 
 ## Can you identify what ransomware it is?
-WannaCry![](./images/08_Memory_Analysis_Ransomware-1792082667340.webp)
+WannaCry  
+![](./images/08_Memory_Analysis_Ransomware-1792082667340.webp)
 
 ## What is the filename for the file with the ransomware public key that was used to encrypt the private key? (.eky extension)
 ![](./images/08_Memory_Analysis_Ransomware-1792083067945.webp)
