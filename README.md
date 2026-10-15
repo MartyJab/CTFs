@@ -8,6 +8,8 @@ Detect It Easy
 HxD Hexeditor  
 FTK Imager  
 Autopsy
+### Memory Analysis
+Volatility3
 ### Network Analysis
 Wireshark
 ### Threat Intel
