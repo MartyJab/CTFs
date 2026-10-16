@@ -17,3 +17,5 @@ Virus Total
 MalwareBazaar  
 ThreatFox  
 QRadar
+## Log Analysis
+lnav
