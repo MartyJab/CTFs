@@ -8,6 +8,7 @@ Detect It Easy
 HxD Hexeditor  
 FTK Imager  
 Autopsy
+DB Browser for SQLite
 ### Memory Analysis
 Volatility3
 ### Network Analysis
