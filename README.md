@@ -7,7 +7,7 @@ Detect It Easy
 ### Storage Analysis:
 HxD Hexeditor  
 FTK Imager  
-Autopsy
+Autopsy  
 DB Browser for SQLite
 ### Memory Analysis
 Volatility3
