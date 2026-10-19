@@ -20,7 +20,7 @@ Finding the lastmod value in the downloads database
 
 ![](./images/Storage_Analysis_Android-1792331551847.webp)
 
-Umkodierung:
+Umkodierung:  
 ![](./images/Storage_Analysis_Android-1792331585848.webp)
 
 ## What is the password for the most recently connected WIFI access point?
